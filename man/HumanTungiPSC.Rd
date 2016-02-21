@@ -1,6 +1,6 @@
 \docType{data}
 \name{HumanTungiPSC}
-\alias{tung2016.rda}
+\alias{HumanTungiPSC.rda}
 \alias{Human iPSC}
 \title{Tung et al., 201 Human iPSC}
 \description{
