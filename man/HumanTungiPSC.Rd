@@ -7,15 +7,11 @@
 TBA
 }
 \section{format}{
-  Data is an \code{\link{SummarizedExperiment}} object. The
-  \code{assay} slot contains the number of reads or 
-  unique molecule identifiers (UMI) mapped at the gene-level
-  or transcript level. The
-  \code{colData} slot contains a DataFrame (Similar to a data.frame,
-  with the most notable exception being that the row names in DataFrame
-  are optional). The columns in the various data sets contain similar
-  information, with a unique sample ID (each column is a sample), 
-  and phenotype indicators, such as cell type or tissue of origin. 
+  Data is an \code{\link{ExpressionSet}} object. The
+  \code{exprs} slot contains the gene read counts in a gene 
+  by sample matrix. \code{phenoData} slot contains sample information 
+  as described below. \code{featureData} slot contains row information
+  which are usually ensemebl gene ID or gene symbols.
   \describe{ 
   \item{\code{}:}{The
   CEL filename in the Gene Expression Omnibus (GEO)}
@@ -37,7 +33,7 @@ TBA
 \references{
 }
 \seealso{
-  \code{\link{SummarizedExperiment}} for the class definition
+  \code{\link{ExpressionSet}} for the class definition
 }
 \keyword{datasets}
 
