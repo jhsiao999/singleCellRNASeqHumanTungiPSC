@@ -4,7 +4,7 @@ Author: Chiaowen Joyce Hsiao <joyce.hsiao1@gmail.com>
 Version: 0.99.0
 License: Artistic-2.0
 Title: single-cell RNA-seq data of induced pluripotent stem cells of human LCLs
-Description: Leng et al., 2015
+Description: This package stores Tung et al data in an ExpressionSet object. Citation: TBD
 LazyData: yes
 Depends:
     R (>= 2.10), Biobase (>= 2.26.0)
